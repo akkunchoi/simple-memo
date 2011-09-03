@@ -1,0 +1,15 @@
+<style>
+</style>
+<textarea rows="10" cols="40" id="code"></textarea>
+<script>
+  var elem = document.getElementById('code');
+  window.onload = function(){
+    if (localStorage['code'] == undefined){
+      localStorage['code'] = '';
+    }
+    elem.value = localStorage['code'];
+  }
+  elem.addEventListener('keyup', function(){
+    localStorage['code'] = elem.value;
+  });
+</script>
