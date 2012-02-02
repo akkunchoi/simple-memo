@@ -1,7 +1,7 @@
 {
   "name": "Simple Memo",
   "version": "1.0",
-  "description": "The simplest note extension",
+  "description": "The simplest memo tool extension",
   "permissions": [
   ],
   "browser_action": {
